@@ -25,6 +25,7 @@ const Navbar = () => {
   };
 
   useEffect(() => {
+    // eslint-disable-next-line
     const token = user?.token;
 
     if (token) {

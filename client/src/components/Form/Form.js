@@ -22,6 +22,7 @@ const Form = ({ currentId, setCurrentId }) => {
   };
 
   useEffect(() => {
+    // eslint-disable-next-line
     if (!post?.title) clear();
     if (post) setPostData(post);
   }, [post]);
